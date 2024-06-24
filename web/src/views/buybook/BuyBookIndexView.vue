@@ -10,7 +10,7 @@ import ContentFiled from '@/components/ContentField'
 export default {
     components: {
         ContentFiled,
-    }
+    },
 }
 </script>
 
