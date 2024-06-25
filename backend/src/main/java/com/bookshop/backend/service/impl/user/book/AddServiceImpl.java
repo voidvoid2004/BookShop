@@ -93,8 +93,9 @@ public class AddServiceImpl implements AddService {
         }
 
 
+        String photo = "https://cdn.acwing.com/media/user/profile/photo/245374_lg_9c7fbd3f2c.jpg";
         Date now = new Date();
-        Book book = new Book(null, user.getId(), title, author, price, count,description, now);
+        Book book = new Book(null, user.getId(), title, author, price, count,description, now, photo);
         bookMapper.insert(book);
 
         map.put("error_message", "success");

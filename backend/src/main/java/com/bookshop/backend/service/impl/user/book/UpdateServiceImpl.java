@@ -113,7 +113,8 @@ public class UpdateServiceImpl implements UpdateService {
                 price,
                 count,
                 description,
-                new Date()
+                new Date(),
+                book.getPhoto()
         );
 
         bookMapper.updateById(new_book);
