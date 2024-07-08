@@ -26,7 +26,6 @@
                                 <p></p>
                                 <dt class="col-sm-3" style="font-size: xx-large;">地址</dt>
                                 <dd class="col-sm-9" style="font-size: xx-large;">{{ $store.state.user.address }}</dd>
-
                             </dl>
                         </div>
                     </div>
